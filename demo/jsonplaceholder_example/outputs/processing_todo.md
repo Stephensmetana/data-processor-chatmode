@@ -1,0 +1,5 @@
+- [x] Step 1: process item and write output for row 1 in input file.
+- [x] Step 2: process item and write output for row 2 in input file.
+- [x] Step 3: process item and write output for row 3 in input file.
+- [x] Step 4: process item and write output for row 4 in input file.
+- [x] Step 5: process item and write output for row 5 in input file.

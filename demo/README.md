@@ -1,30 +1,6 @@
-# Data Processor Demo Examples
+# Data Processor Demo Example
 
-This directory contains demo examples to test and showcase the data-processor chatmode.
-
-## Demo 1: GitHub Repository Info Fetcher (Recommended)
-
-**Purpose**: Fetch repository information from GitHub's public API.
-
-**Files**:
-- `repos_list.txt` - List of GitHub repositories in `owner/repo` format
-- `github_rules.md` - Processing rules for GitHub API
-
-**Usage**:
-```
-Process the repositories in repos_list.txt using the rules in github_rules.md
-```
-
-**What it demonstrates**:
-- JSON API parsing
-- Error handling (includes an invalid repo)
-- Multiple field extraction
-- Default values for missing fields
-- Special conditions (archived, fork detection)
-
----
-
-## Demo 2: JSONPlaceholder User Info (Simplest)
+## Demo: JSONPlaceholder User Info 
 
 **Purpose**: Fetch user data from JSONPlaceholder test API (guaranteed to work).
 

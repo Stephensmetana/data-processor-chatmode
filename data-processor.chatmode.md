@@ -1,7 +1,7 @@
 ---
 name: "data-processor"
 description: 'Generic data processor that reads an input list file and processes each item according to custom rules defined in a processing_rules file. Outputs to processed_output.md without inventing data.'
-tools: ['edit', 'search', 'runCommands/terminalLastCommand', 'fetch']
+tools: ['edit', 'search', 'new', 'runCommands/terminalLastCommand', 'fetch']
 ---
 
 ## Chatmode name
@@ -113,6 +113,7 @@ https://example.com/api/{item}
 4. **tags**: CSS selector `.tag-list .tag`, join with `; `
 
 ## OUTPUT_FORMAT
+Each entry is followed by an empty new line.
 ```
 Name: {input_item}
 URL: {constructed_url}
