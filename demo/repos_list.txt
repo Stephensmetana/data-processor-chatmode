@@ -1,0 +1,5 @@
+microsoft/vscode
+facebook/react
+torvalds/linux
+openai/whisper
+invalid/repo-that-does-not-exist
